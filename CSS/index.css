@@ -1,0 +1,199 @@
+html {
+    scroll-behavior: smooth;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+body {
+    background: #F2F5F8;
+}
+
+/* =====================================HEADER===================================== */
+
+header {
+    background: #F2F5F8;
+    color: #000;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header div p {
+    font-size: 30px;
+    font-weight: 20px;
+    letter-spacing: 1px;
+    padding: 20px;
+} 
+
+nav ol {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4D5F70;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background: #CCCCCC;
+}
+
+/* =====================================INICIO===================================== */
+
+main {
+margin: 0px auto;
+padding: 40px 40px;
+}
+
+section {
+    background: #E8EDF2;
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+h1 h2 h3 h4 h5 {
+    color: #14212E;
+}
+
+h1 {
+    font-size: 2.5 rem;
+}
+
+h2 { 
+    font-size: 1.8rem; 
+    border-bottom: 2px solid #2563eb; 
+    padding-bottom: 0.3rem; 
+    margin: 2rem;
+    display: inline-block; 
+}
+
+    h3 {
+        font-size: 1.5rem;
+        margin: 1.5rem;
+    }
+
+img{
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+p{
+    color: #14212E;
+    margin-bottom: 1rem;   
+}
+
+small {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+}
+
+hr {
+    border: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+/* ==========================================
+   5. ESTILOS DE TABLAS
+   ========================================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #D1DBE4;
+}
+
+tr, td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #D1DBE4;
+}
+
+tr:hover {
+    background-color: #e2e8f0;
+}
+
+/* ==========================================
+   6. ENLACES Y BOTONES DE VIDEO
+   ========================================== */
+
+a[target="_blank"] {
+    display: inline-block;
+    background-color: #1D5FD0;
+    color: white;
+    padding: 10px 1.2rem;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 1rem;
+    position: relative;
+    left:35%;
+    }
+
+a[target="_blank"]:hover {
+    background: #1d4ed8;
+}
+
+footer {
+    text-align: center;
+    background: #4D5F70;
+    color: #fff;
+}
+
+.clase-picante{
+    display: flex;
+    justify-content: space-around;
+}
+
+.caja-bloque {
+    display:inline-block;
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;         
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    margin: 5px;
+}
+
+
+.caja-bloque img {
+    display: flex;
+    width: 70%;             
+    max-width: 350px;
+    max-height: 350px;
+    height: auto;             
+    margin: 1rem auto;         
+    border-radius: 6px;
+}
+
+.caja-bloque h3, .caja-bloque h4 {
+    margin-bottom: 0.5rem;
+}
+
+.caja-bloque p {
+    line-height: 1.6;
+}
+/* ========================================================================================== */
+}
